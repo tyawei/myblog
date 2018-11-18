@@ -1,0 +1,16 @@
+#edit {
+	$margin:10px;
+	.t {font-size:16px; line-height:30px; font-weight:bold; }
+	.theme, .content, .catagory {
+		.ant-form-item {margin-bottom:15px; }
+	}
+	.theme { margin-top:$margin; }
+	.confirm { 
+		margin-top:$margin*3; 
+		button {margin-right:20px; }
+	}
+	.content {
+		[type=textarea] {width:100%; min-height:300px; }
+		.textareaerror {position:absolute; color:red; left:0; top:290px; }
+	}
+}

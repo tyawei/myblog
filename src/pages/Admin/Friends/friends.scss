@@ -1,0 +1,13 @@
+#friends {
+	$bottom:10px;
+	.displayFriends {
+		margin-left:20px;
+		.list {
+			margin-bottom:$bottom; padding-bottom:$bottom; border-bottom:1px dashed #666; 
+			&:last-child { border:none; }
+			.item, .d {line-height:28px; }
+			.content {text-indent:2em; margin-bottom:10px; }
+			button {margin-right:20px; }
+		}
+	}
+}

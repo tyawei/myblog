@@ -1,0 +1,29 @@
+#sider {
+	width:25%; 
+	$bgcolor:#fff; $marginBottom:10px; $height:30px; $padding:10px; 
+	@mixin style {
+		background-color:$bgcolor;
+		margin-bottom:$marginBottom;
+	}
+	@mixin borderradius {
+		-webkit-border-radius:50%; 
+		-mz-border-radius:50%; 
+		-o-border-radius:50%; 
+		border-radius:50%;
+	}
+	.title {height:$height; line-height:$height; background-color:#cecece; margin-bottom:5px;}
+	.headimg {
+		@include style; padding:$padding;
+		.myimg {
+			width:100px; height:100px; margin:20px auto 0;
+			.img {display:block; width:100%; @include borderradius; }
+		}
+		.btn {margin-bottom:$marginBottom*2; }
+		.bloger {line-height:$height; }
+	}
+	.zanmax, .readmax {
+		@include style;
+		li {padding:2px 10px; clear:both; }
+	}
+
+}

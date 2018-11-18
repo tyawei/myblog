@@ -1,0 +1,17 @@
+#article {
+	.article {margin-bottom:30px; }
+	.content {
+		margin-bottom:10px; padding-bottom:10px; 
+		.info {
+			margin-bottom:15px; 
+			.name, .cata, .time {margin-right:10px; }
+			.edit {margin-left:10px; }
+		}
+		.para {
+			.p {margin:10px 0; }
+		}
+	}
+	.evaluate {
+		.zan {margin-right:20px; }
+	}
+}

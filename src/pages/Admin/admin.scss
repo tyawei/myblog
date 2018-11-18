@@ -1,0 +1,17 @@
+#admin {min-height:666px; }
+#catagories {
+	$margin:15px; @mixin style {width:90%; margin:$margin auto 0; }; 
+	.btnbox {
+		@include style;
+		button { margin:0 $margin $margin 0; }
+		.giveup {background-color:#cecece; }
+	}
+	.edit {
+		@include style; 
+		input {width:85%; }
+	}
+}
+
+#users {
+	.pagination {margin-top:20px; }
+}

@@ -1,0 +1,35 @@
+#header {
+	border-bottom:3px solid #666; margin-bottom:10px; $height:28px;
+	@mixin boxshadow {
+		-webkit-box-shadow: 0 0 10px #666;
+		-mz-box-shadow: 0 0 10px #666;
+		-o-box-shadow: 0 0 10px #666;
+		box-shadow: 0 0 10px #666;
+	}
+	.head {
+		margin-bottom:20px; 
+		.name {line-height:2; }
+		.words {}
+	}
+	.nav {
+		ul {
+			font-size:0;
+			li {
+				font-size:16px; height:$height; line-height:$height;
+				.list {padding:0 20px; }
+			}
+		}
+		.n {width:60%; }
+		.check {
+			width:40%; padding-right:30px; 
+			li {position:relative}
+			.msgtip { position:absolute; left:66px; padding:0 5px; color:red; }
+		}
+	}
+	.error {position:absolute; top:28px; left:0; color:red;}
+	.userinfo {
+		position:relative; 
+		a {color:#49a9ee; }
+		.infobar {position:absolute; z-index:1000; top:$height+3px; right:0; width:25%; background-color:#fff; display:none; padding:10px; @include boxshadow; }
+	}
+}

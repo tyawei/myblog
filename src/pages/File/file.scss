@@ -1,0 +1,13 @@
+#articlecata,#file {
+	min-height:666px; 
+	.title {margin-bottom:10px; }
+	.item {
+		margin-bottom:10px; 
+		.time {font-size:16px; font-weight:bold; line-height:2;}
+		.list {
+			margin-left:20px;
+			a {color:#49a9ee; } 
+			.li { line-height:1.8; clear:both; .t {margin-left:20px} }
+		}
+	}
+}

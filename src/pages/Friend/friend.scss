@@ -1,0 +1,16 @@
+#friend {
+	min-height:666px; $marginleft:30px;
+	.none {display:none; }
+	.title {margin-bottom:10px; }
+	.list {
+		margin-left:$marginleft;
+		.li {line-height:32px; font-size:16px; a {color:#49a9ee;} }
+	}
+	.apply {
+		margin:0 $marginleft; 
+		textarea {resize:none; height:100px; }
+		button {margin-right:10px; }
+		.errormsg {position:absolute; left:0; top:28px; color:red; }
+		.textareaerror {top:100px; }
+	}
+}

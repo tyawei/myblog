@@ -1,0 +1,21 @@
+body, p, h1, h2, h3, h4, h5, h6, header, ul, ol, form, input, textarea, select {margin:0; padding:0;}
+html body {color:#666; background:#ececec; font-size:14px; font-family:"微软雅黑"; padding:2% 5%; min-width:666px; }
+li {list-style:none;}
+body a {	
+	color:#666; text-decoration:none !important;
+	&:hover { text-decoration:none; }
+}
+.clearfix {
+	&:after { content:""; display:block; clear:both; height:0; visibility:hidden; }
+}
+.left {float:left; }
+.right {float:right; }
+.textcenter {text-align:center; }
+.borderbox {-webkit-box-sizing:border-box; -mz-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box; }
+.active {color:#49a9ee; }
+.layoutwidth {width:70%; background-color:#fff; padding:10px; }
+.error {position: absolute; color:red; left:0; top:30px; }
+
+@mixin title {height:40px; line-height:40px; font-size:18px;}
+.title {@include title}
+.admintitle {@include title; cursor:pointer; font-size:16px; color:#49a9ee;}
